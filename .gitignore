@@ -1,0 +1,16 @@
+# зависимости — ставятся через npm install
+node_modules/
+
+# личные настройки и токены — НИКОГДА не коммитить
+config.json
+tokens.json
+banned_words.txt
+
+# сборочные артефакты
+dist/
+build/
+*.exe
+
+# служебное
+.DS_Store
+npm-debug.log
