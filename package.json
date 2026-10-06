@@ -8,6 +8,7 @@
     "start": "node src/index.js",
     "bundle": "esbuild src/index.js --bundle --platform=node --target=node18 --format=cjs --outfile=dist/bundle.js --external:bufferutil --external:utf-8-validate",
     "build": "npm run bundle && pkg dist/bundle.js --targets node18-win-x64 --output build/donation-bot.exe"
+    "test": "echo \"No tests\" && exit 0"
   },
   "pkg": {
     "targets": [
